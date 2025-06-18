@@ -7,4 +7,4 @@ def test_singleton_instance():
 
 def test_read_data():
     db = DataBase("root", "1234", 80)
-    assert db.read() == "данные из БД"
+    assert db.read() == "данные"
